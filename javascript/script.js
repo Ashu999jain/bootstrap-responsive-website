@@ -1,4 +1,4 @@
-$('document').ready(function()
-	{
-      $('h1').css({"color": "red"});
-	});
+$(window).on('load',function(){
+	$('#status').fadeOut();
+    $('#preloader').delay(1000).fadeOut();
+});

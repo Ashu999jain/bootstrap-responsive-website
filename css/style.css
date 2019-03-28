@@ -1,3 +1,23 @@
-h1{
-	color: orange;
+#preloader{
+	background-color: blue;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position :fixed;
+
+}
+#status
+{
+
+background-image: url(../img/preloader/preloader.gif);
+background-repeat: no-repeat;
+width: 70px ;
+height :70px; 
+position: absolute;
+left: 50%;
+bottom: 50%;
+margin-left: -35px;
+margin-bottom: -35px;
+
 }
