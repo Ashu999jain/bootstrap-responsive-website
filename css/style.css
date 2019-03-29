@@ -1,3 +1,4 @@
+/* ____________preloader css _____________________*/
 #preloader{
 	background-color: blue;
 	left: 0;
@@ -20,4 +21,27 @@ bottom: 50%;
 margin-left: -35px;
 margin-bottom: -35px;
 
+}
+/* ________________________________________________________________*/
+
+
+
+#bg_video{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -999999;
+}
+
+#home_overlay{
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -999999;
 }

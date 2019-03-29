@@ -1,4 +1,6 @@
+/*_________preloader___________________*/
 $(window).on('load',function(){
 	$('#status').fadeOut();
-    $('#preloader').delay(1000).fadeOut();
+    $('#preloader').fadeOut();
 });
+/*______________________________________*/
