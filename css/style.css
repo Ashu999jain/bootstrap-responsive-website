@@ -169,3 +169,42 @@ z-index: 10;
 
 
 
+</*____________________________about section _____________________________*/
+
+
+</*_____________________________part 1 __________________________________*/
+
+.content-box-lg{
+	padding: 120px 0px;
+}
+.vertical-heading h5{
+	color: #f4c613;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	word-spacing: 9px;
+     display: inline-block;
+     transform: rotate(-90deg);
+     position: relative;
+     top :60px;
+     left: -63px;
+}
+
+.vertical-heading h2{
+	margin: 0 0 0 25px;
+    font-size: 42px;
+    font-weight: 100 ;
+    line-height: 45px;
+
+}
+#right-about p:first-child{
+	margin-bottom: 30px;
+
+}
+#about-bottom-image{
+	margin-top: 60px;
+}
+#about-bottom-image img{
+	margin: 0 auto;
+
+}
