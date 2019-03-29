@@ -1,4 +1,47 @@
-/* ____________preloader css _____________________*/
+/*------------------ general setting------------------------------------*/
+html , body{
+
+	height: 100%;}
+body{
+	color: grey;
+}	
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway";
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section{
+	background: white;
+	overflow: hidden;
+}
+.btn-general{
+	
+	font-family: "Raleway";
+	border-radius: 28px;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin : 0,6px;
+	padding: 12px 46px 12px 46px;
+        transition: all .5s;
+}
+
+
+
+/*____________________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+/* ___________________________________preloader css ___________________________________*/
 #preloader{
 	background-color: blue;
 	left: 0;
@@ -22,9 +65,20 @@ margin-left: -35px;
 margin-bottom: -35px;
 
 }
-/* ________________________________________________________________*/
+/*_________________________preloader complete_____________________________*/
 
 
+
+
+
+
+
+/* __________________________home section______________________________________*/
+
+#home{
+	background : none;
+	height: 100%;
+}
 
 #bg_video{
 	position: fixed;
@@ -47,3 +101,71 @@ margin-bottom: -35px;
 	left: 0;
 	z-index: -999999;
 }
+#home_content{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+#home_content_inner{
+	display: table-cell;
+	vertical-align: middle;
+}
+#home_heading h1{
+	color: white;
+	font-size: 65px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+	display: inline-block;
+}
+#heading_span{
+color: #f4c613;
+font-weight: 400;	
+}
+
+#home_paragraph p{
+	color: white;
+	font-weight: 10;
+	font-size: 17px;
+	margin: 8,0,30,0 ;
+}
+
+.btn_home{
+color: white;
+border: solid white;
+	border-width: 1px;
+}
+.btn_home:hover, 
+.btn_home:focus{
+color: white;
+background-color: #f4c613;
+border : solid 1px #f4c613;
+}
+
+
+#arrow-down
+{
+position: absolute;
+left: 50%;
+bottom: 20px;
+color: white;
+font-size: 32px;
+width: 32px;
+height: 32px;
+text-align: center;
+margin-left: -16px;
+z-index: 10;
+
+}
+
+
+#arrow-down:hover ,
+ #arrow-down:focus
+ {
+ 	color: #f4c613;
+ }
+
+/*_______________________home section complete   _______________________*/
+
+
+
