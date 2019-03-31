@@ -29,7 +29,29 @@ section{
 }
 
 
+.content-box-lg{
+	padding: 120px 0px;
+}
+.vertical-heading h5{
+	color: #f4c613;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	word-spacing: 9px;
+     display: inline-block;
+     transform: rotate(-90deg);
+     position: relative;
+     top :60px;
+     left: -63px;
+}
 
+.vertical-heading h2{
+	margin: 0 0 0 25px;
+    font-size: 42px;
+    font-weight: 100 ;
+    line-height: 45px;
+
+}
 /*____________________________________________________________________________________*/
 
 
@@ -43,7 +65,7 @@ section{
 
 /* ___________________________________preloader css ___________________________________*/
 #preloader{
-	background-color: blue;
+	background-color: white;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -66,6 +88,9 @@ margin-bottom: -35px;
 
 }
 /*_________________________preloader complete_____________________________*/
+
+
+/* _________________TEAM SECTION____________________________________*/
 
 
 
@@ -167,6 +192,15 @@ z-index: 10;
 
 /*_______________________home section complete   _______________________*/
 
+/*______________________team section____________________________________*/
+
+
+#team-left .vertical-heading{
+
+min-height: 160px;
+
+}
+
 
 
 </*____________________________about section _____________________________*/
@@ -174,29 +208,7 @@ z-index: 10;
 
 </*_____________________________part 1 __________________________________*/
 
-.content-box-lg{
-	padding: 120px 0px;
-}
-.vertical-heading h5{
-	color: #f4c613;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-	word-spacing: 9px;
-     display: inline-block;
-     transform: rotate(-90deg);
-     position: relative;
-     top :60px;
-     left: -63px;
-}
 
-.vertical-heading h2{
-	margin: 0 0 0 25px;
-    font-size: 42px;
-    font-weight: 100 ;
-    line-height: 45px;
-
-}
 #right-about p:first-child{
 	margin-bottom: 30px;
 
@@ -208,3 +220,77 @@ z-index: 10;
 	margin: 0 auto;
 
 }
+/*______________part 1 complete____________________________*/
+
+
+
+
+/*            part 2 start_______________________________*/
+
+#part-2
+{
+
+	background-color: #f4f4f4;
+}
+.content-box-md
+{
+	padding: 100px 0 ;
+}
+.about-item{
+	background-color: white;
+	padding: 80px 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,.1)
+}
+.about-item i{
+
+	font-size: 40px;
+	margin: 0;
+}
+.about-item h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.about-item hr{
+	width: 45px;
+	height: 3px;
+	background-color: #f4c613;
+	margin: 0 auto;
+	border: none;
+}
+.about-item p{
+	margin-top: 20px;
+
+.about-item:hover
+{
+	background-color: #f4c613;
+	transform: all 400ms ease-in-out;
+}
+
+
+.about-item:hover i
+{
+	transform: translateY(-20px);
+	color: white;
+}
+.about-item:hover p{
+	color: white;
+}
+.about-item:hover h3{
+	color: white;
+}
+.about-item:hover hr{
+	background-color: white;
+}
+
+/*______________END OF PART 2_________________________________*/
+
+
+
+
+
+
+
+
+
+
+
