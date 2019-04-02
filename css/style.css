@@ -52,6 +52,25 @@ section{
     line-height: 45px;
 
 }
+
+
+
+.horizontal-heading{
+	 margin-bottom: 80px; 
+}
+.horizontal-heading h5{
+	font-size: 16px;
+	color :#f4c613;
+	text-transform: uppercase;
+	display: inline-block; 
+     margin-bottom:10px; 
+}
+.horizontal-heading h2{
+  font-size:42px;
+  font-weight: 100;
+  line-height: 45px;
+  margin: 0;
+}
 /*____________________________________________________________________________________*/
 
 
@@ -88,14 +107,6 @@ margin-bottom: -35px;
 
 }
 /*_________________________preloader complete_____________________________*/
-
-
-/* _________________TEAM SECTION____________________________________*/
-
-
-
-
-
 
 
 /* __________________________home section______________________________________*/
@@ -192,6 +203,8 @@ z-index: 10;
 
 /*_______________________home section complete   _______________________*/
 
+
+
 /*______________________team section____________________________________*/
 
 
@@ -264,7 +277,7 @@ min-height: 160px;
 	position: absolute;
 	left: 97%;
 }
-/*______________________________________*/
+/*___________________team-section ends___________________*/
 
 
 
@@ -312,10 +325,29 @@ min-height: 160px;
 	transition: all 400ms linear;
 }
 
+/*_______________________________________________*/
 
+/*  ________________Statement-Section______________*/
 
+#statement{
+	background: url("../img/tech/tech-quote.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+#statement .content-box-lg
+{
+	background: rgb(0,0,0,.3);
+}
+#tech-statement h3{
+	color: white;
+	font-size: 30px;
+	line-height: 45px;
 
+}
 
+/*_____________________End of statement-section ____________*/
 
 
 
@@ -377,6 +409,7 @@ min-height: 160px;
 }
 .about-item p{
 	margin-top: 20px;
+}
 
 .about-item:hover
 {
@@ -400,15 +433,41 @@ min-height: 160px;
 	background-color: white;
 }
 
-/*______________END OF PART 2_________________________________*/
+
+/* _______________________________________*/
 
 
 
+/*   service section _____________________*/
 
+  #services-01 img{
+  	margin: 60px 0;
+  }
 
+.service{
+	margin: 35px 0;
+}
 
+.service .icon{
+	font-size: 42px;
+	margin :0;
+}
 
-
-
-
-
+.service:hover .icon{
+	color: #f4c613;
+	transform: translateX(-20px);
+	transition: all 400ms linear;
+}
+.service h5{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #f4c613;
+	margin: 0 0 6px 0;
+}
+.service:hover h5{
+	color: grey;
+}
+.service h4{
+	font-size: 24px;
+	margin: 0  0 8px 0;
+}
