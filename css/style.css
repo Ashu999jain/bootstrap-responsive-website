@@ -20,6 +20,7 @@ section{
 .btn-general{
 	
 	font-family: "Raleway";
+	border-width: 1px;
 	border-radius: 28px;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -27,6 +28,40 @@ section{
 	padding: 12px 46px 12px 46px;
         transition: all .5s;
 }
+
+
+.btn_home{
+
+border: solid;
+border-color: white;
+	border-width: 1px;
+}
+.btn_home:hover, 
+.btn_home:focus{
+color: white;
+background-color: #f4c613;
+border : solid 1px #f4c613;
+}
+
+.btn-yellow{
+
+border: solid;
+border-color:#f4c613;
+	border-width: 1px;
+	background-color: #f4c613;
+}
+.btn-yellow:hover, 
+.btn-yellow:focus{
+color: white;
+background-color: #212226;
+border : solid 1px #212226;
+}
+
+
+
+
+
+
 
 
 .content-box-lg{
@@ -165,19 +200,6 @@ font-weight: 400;
 	font-size: 17px;
 	margin: 8,0,30,0 ;
 }
-
-.btn_home{
-color: white;
-border: solid white;
-	border-width: 1px;
-}
-.btn_home:hover, 
-.btn_home:focus{
-color: white;
-background-color: #f4c613;
-border : solid 1px #f4c613;
-}
-
 
 #arrow-down
 {
@@ -471,3 +493,71 @@ min-height: 160px;
 	font-size: 24px;
 	margin: 0  0 8px 0;
 }
+.service p{
+	line-height: normal;
+}
+
+
+
+/*service section part-02  */
+
+
+#services-2{
+	background-color: #f4f4f4;
+}
+#services-2 ul{
+	margin-bottom: 40px;
+}
+
+#services-2 ul li{
+	padding: 5px 30px;
+}
+
+#services-2 ul li a{
+	font-family: "Raleway";
+	font-size: 13px;
+	color: #212226;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 0;
+	text-decoration: none;
+}
+
+
+#services-2 ul li.r-tabs-state-active a{
+	color: #f4c613;
+	font-weight: 700;
+	border-bottom: 3px solid #f4c613;
+	padding: 5px;
+    transition: border-color 300ms linear;
+}
+.service-tab img{
+	width: 100%;
+	margin: 0 auto;
+
+}
+.service-tab .col-md-6{
+padding: 0;
+}
+.service-tab .tab-bg{
+
+	background-color: white;
+	padding: 59px 30px;
+	min-height: 481px;
+}
+.service-tab h2{
+	color: #bbb;
+	font-size: 68px;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+.service-tab h3{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.service-tab p{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+

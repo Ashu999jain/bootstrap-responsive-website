@@ -21,7 +21,7 @@ $('#team-members').owlCarousel({
 });
 });
 
-/*__________________wayout method use of scroll in team section_______________________*/
+/*__________________wayout(jquery-plugin) method use of scroll in team section_______________________*/
 $(function()
 {
 
@@ -36,3 +36,12 @@ $('#progress-elements').waypoint(function(){
 });
 });
 /*_____________________________________________________________________________________*/
+
+
+/* service section part-02 using responsive-tabs(jquery plugins) we can use tabs in it */
+
+$(function(){
+$('#servies-tabs').responsiveTabs({
+   animation: 'slide' 
+});
+});
