@@ -561,3 +561,15 @@ padding: 0;
 	margin-bottom: 30px;
 }
 
+/*Services section ends here  */
+
+
+/* work-section portfolio start here*/
+#portfolio .vertical-heading{
+	  margin-bottom: 50px;
+}
+
+#portfolio-wrapper  .col-md-3
+{
+	padding: 0;
+}
