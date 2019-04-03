@@ -47,3 +47,33 @@ $('#servies-tabs').responsiveTabs({
 });
 
 /*________________________________________________________________*/
+
+
+
+$(window).on('load',function(){
+	//initialize isotope plugin
+	$('#isotope-container').isotope({
+   });
+	// filter items on button click
+$('#isotope-filters').on( 'click', 'button', function() {
+    var filterValue = $(this).attr('data-filter');
+    $('#isotope-container').isotope({
+      filter : filterValue
+    });
+  $('#isotope-filters').find('.active').removeClass('active');
+  $(this).addClass('active');
+});
+}); 
+
+/*  magnifing-popups jquery plugin added to add magnifing effect to our images*/
+
+$(function(){
+$('#portfolio-wrapper').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  gallery:{
+  	enabled:true
+  }
+  // other options
+}); 
+});

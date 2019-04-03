@@ -539,11 +539,10 @@ min-height: 160px;
 .service-tab .col-md-6{
 padding: 0;
 }
-.service-tab .tab-bg{
-
-	background-color: white;
-	padding: 59px 30px;
-	min-height: 481px;
+.service-tab .tab-bg {
+    background-color: white;
+    padding: 59px 30px;
+    min-height: 81px;
 }
 .service-tab h2{
 	color: #bbb;
@@ -572,4 +571,46 @@ padding: 0;
 #portfolio-wrapper  .col-md-3
 {
 	padding: 0;
+}
+
+.portfolio-item{
+	overflow: hidden;
+}
+
+/*css on filter effect*/
+
+#isotope-filters{
+	margin-bottom: 10px;
+	padding: 20px 25px 20px 0;
+}
+
+#isotope-filters button{
+	font-family: "Raleway";
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: transparent;
+	box-shadow: none;
+	padding-right: 35px;
+}
+#isotope-filters button span{
+	display: block;
+	padding-bottom: 5px;
+	transition: border-color 400ms ease-in-out;
+}
+
+#isotope-filters button.active span{
+	color: #f4c613;
+	border-bottom: 3px solid #f4c613;
+
+}
+
+.portfolio-item img{
+	width: 100%;
+	height: auto;
+	transition: transform .5s ease-in-out;
+}
+.portfolio-item:hover img
+{
+	transform: scale(1.3);
 }
