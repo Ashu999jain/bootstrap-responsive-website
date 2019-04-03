@@ -71,7 +71,7 @@ $(function(){
 $('#portfolio-wrapper').magnificPopup({
   delegate: 'a', // child items selector, by clicking on it popup will open
   type: 'image',
-  gallery:{
+  gallery:{   //scroll left right arrow is because of gallary feature on
   	enabled:true
   }
   // other options
