@@ -92,3 +92,6 @@ $('#testimonial-slider').owlCarousel({
 	'<i class="fa fa-angle-right"></i>']
 });
 });
+
+
+
