@@ -74,6 +74,21 @@ $('#portfolio-wrapper').magnificPopup({
   gallery:{   //scroll left right arrow is because of gallary feature on
   	enabled:true
   }
-  // other options
 }); 
+});
+
+/*  testimonial section    */
+
+$(function(){
+$('#testimonial-slider').owlCarousel({
+	items : 1,
+	smartSpeed:700,
+	loop :true,
+	autoplay: true,
+	autoplayHoverPause: true,
+	nav: true,
+	dots:false,
+	navText: ['<i class="fa fa-angle-left"></i>' ,
+	'<i class="fa fa-angle-right"></i>']
+});
 });

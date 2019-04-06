@@ -564,6 +564,9 @@ padding: 0;
 
 
 /* work-section portfolio start here*/
+#portfolio{
+	padding-bottom:160px; 
+}
 #portfolio .vertical-heading{
 	  margin-bottom: 50px;
 }
@@ -665,3 +668,123 @@ transform: translateY(-20%);
 	height: 6px;
 	margin: 11px auto 5px auto;
 }
+/* Testimonial section*/
+
+
+#testimonials{
+	background-color: #f4f4f4;
+	padding-bottom:  45px;
+	overflow: visible;
+
+}
+#testimonials .vertical-headings{
+	padding: 80px 0;
+	margin-bottom:50px: 
+
+}
+#testimonial-slider{
+	background-color: #f4c613;
+	 transform: translateY(-120px);
+}
+
+.testimonial{
+	padding: 20px 45px 0 45px;
+	color: white;
+}
+
+.testimonial h3{
+	font-size: 32px;
+	line-height: 35px;
+}
+.testimonial .stars{
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+
+}
+.testimonial .p{
+	margin: 0;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.testimonial .author .author-name-desg{
+	text-align: left;
+	width: 106px;
+	margin-top: 25px;
+}
+
+.author .author-name-desg p{
+	margin: 0;
+}
+
+
+/*testimonial section ends here  */ 
+
+#extra-space{
+	height: 250px;
+	width: cover;
+	background-color: white;
+}
+
+/* blog section  */
+
+
+#blog{
+	background-color: #f4f4f4;
+}
+
+#blog-left p{
+	margin: 25px 0;
+}
+
+#blog-left a{
+	margin: 0;
+}
+.blog-post{
+
+	background-color: white;
+	padding: 20px; 
+	box-shadow: 0 0 10px 0 rgba(0 ,0,0,0.1);
+	border-radius: 6px;
+ }
+
+
+ .blog-post h4{
+ 	line-height: 40px;
+ 	margin: 0;
+ }
+
+ .blog-post > p{
+      line-height: 24px;
+      margin: 0;
+      font-weight: 300;;
+ }
+
+ .blog-post a{
+ 	display: inline-block;
+ 	margin-top: 25px;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    color: #f4c613;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 400ms linear;
+ }
+
+ .blog-post a:hover{
+ 	color: #212226;
+ 	 }
+
+ .blog-post .blog-meta{
+
+ 	border-top: 1px solid #e0e0e0;
+ 	margin-top: 30px;
+ 	padding-top: 10px;
+ 	 }	 
+ .blog-post .blog-meta p{
+ 	font-size: 11px;
+ 	font-family:"Raleway";
+ 	margin: 0;
+ 	line-height: 24px;
+ 	font-weight:500;
+ }	
