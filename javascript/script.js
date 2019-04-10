@@ -93,5 +93,27 @@ $('#testimonial-slider').owlCarousel({
 });
 });
 
+/*  Navbar   */
 
+$(function () {
+
+	workOnLoadTo();
+//show white nav-bar
+$(window).scroll(function (){
+	 workOnLoadTo();
+
+});
+function workOnLoadTo(){
+    if($(window).scrollTop()>50){
+          $('nav').addClass('white-navbar');
+		$('.navbar-brand img').attr("src" , "img/logo/logo-dark.png");
+	}
+	else
+	{
+		$('nav').removeClass('white-navbar');
+        $('.navbar-brand img').attr("src" , "img/logo/logo.png");
+	}
+}
+
+});
 

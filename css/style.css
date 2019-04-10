@@ -852,3 +852,70 @@ border-radius: 6px;
  #contact-right form textarea.form-control {
   min-height: 150px; 
  }
+
+
+
+ /* Footer-Area                 */
+
+ footer{
+ 	background-color: #212226;
+ 	padding: 30px;
+}
+
+footer p{
+	color: white;
+	line-height: 20px;
+}
+
+footer p span
+{
+	color: #f4c613;
+}
+
+/* footer ends here   */
+
+/*  navigation-bar     */
+nav{
+padding: 35px 0 20px 0	;
+transition: all 500ms linear;
+}
+
+.nav-wrapper{
+	padding: 0 85px;
+	
+	}
+
+.navbar-brand{
+	padding: 13px 15px;
+}
+
+ul.navbar-nav > li > a{
+	font-family: "Raleway";
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus{
+	background: none;
+	color: #f4c613;
+}
+
+
+.white-navbar{
+	background-color: white;
+	padding: 10px 0;
+	box-shadow: 0 8px 6px -9px #999;
+	z-index: 444;
+}
+.white-navbar ul.navbar-nav > li > a{
+	color: #212226; 
+}
+
+.white-navbar ul.navbar-nav > li > a:hover ,
+.white-navbar ul.navbar-nav > li > a:focus{
+	color: #f4c613;
+}
